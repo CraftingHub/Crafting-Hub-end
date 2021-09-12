@@ -11,6 +11,7 @@ urlpatterns = [
     path('lesson/detail/<int:pk>/', LessonDetail.as_view(), name='lesson_detail'),
     path('lesson/update/<int:pk>/', LessonUpdate.as_view(), name='lesson_update'),
     path('lesson/delete/<int:pk>/', LessonDelete.as_view(), name='lesson_delete'),
+    # Todo those two api are not used yet and failed on test
     path('lesson/filter/slug/<slug:title>/', LessonFilterBySlug.as_view(), name='lesson_filter_by_slug'),
     path('lesson/filter/status/<int:status>/', LessonFilterByStatus.as_view(), name='lesson_filter_by_status'),
 

@@ -35,23 +35,21 @@ class LessonDelete(generics.DestroyAPIView):
     queryset = Lesson.objects.all()
     serializer_class = LessonSerializer
 
-
+# Todo those two view are not used yet and failed on test
 # Filter lesson by status
 class LessonFilterByStatus(generics.ListAPIView):
-    queryset = Lesson.objects.all()
     serializer_class = LessonDisplaySerializer
 
-    def get_queryset(self):
+    def get_queryset(self, *args, **kwargs):
         status = self.kwargs['status']
         return Lesson.objects.filter(status=status)
 
 
 # Filter lesson by slug 
 class LessonFilterBySlug(generics.ListAPIView):
-    queryset = Lesson.objects.all()
     serializer_class = LessonDisplaySerializer
 
-    def get_queryset(self):
+    def get_queryset(self, *args, **kwargs):
         slug = self.kwargs['slug']
         return Lesson.objects.filter(slug=slug)
 
