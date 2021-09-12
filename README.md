@@ -2,6 +2,7 @@
 
 Crafting hub is a web application that allows you to learn it techenologies in order to create and manage your crafting projects.
 
+your can check the application on : [https://craftinghub.herokuapp.com](https://craftinghub.herokuapp.com)
 
 ## Installation
 
