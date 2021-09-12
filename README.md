@@ -22,7 +22,7 @@ pip install -r requirements.txt / pip3 install -r requirements.txt
 ```
 , and then 
 ```sh
-python3 manage.py runserver` / `py manage.py runserver`
+python3 manage.py runserver / py manage.py runserver
 ```
 to run the server locacly 
 
