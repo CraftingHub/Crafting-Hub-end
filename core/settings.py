@@ -131,3 +131,12 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# Allow host setting
+
+ALLOWED_HOSTS = [
+    '0.0.0.0',
+    'craftinghub.herokuapp.com',
+    '127.0.0.1',
+]
