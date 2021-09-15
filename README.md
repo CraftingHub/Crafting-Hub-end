@@ -1,6 +1,7 @@
 # Crafting Hub
 
-[![Django unit test](https://github.com/CraftingHub/Crafting-Hub-end/actions/workflows/django.yml/badge.svg)](https://github.com/CraftingHub/Crafting-Hub-end/actions/workflows/django.yml)
+[![Django UnitTest](https://github.com/CraftingHub/Crafting-Hub-end/actions/workflows/django.yml/badge.svg)](https://github.com/CraftingHub/Crafting-Hub-end/actions/workflows/django.yml)
+<br/>
 Crafting hub is a web application that allows you to learn it techenologies in order to create and manage your crafting projects.
 
 your can check the application on : [https://craftinghub.herokuapp.com](https://craftinghub.herokuapp.com)
